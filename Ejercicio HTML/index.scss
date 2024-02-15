@@ -1,0 +1,48 @@
+$text-color: white;
+$header-primary-color: black;
+
+body {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    background-color: #e3e9d6;
+}
+
+header {
+    background-color: $header-primary-color;
+    text-align: center;
+    color:$text-color;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:$text-color;
+}
+
+footer {
+    text-align: right;
+    padding:10px;
+
+}
+
+.main-image {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 0 20px 10px 10px;
+}
+
+section {
+    padding-left: 10px;
+}
+
